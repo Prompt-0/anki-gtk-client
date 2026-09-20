@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "crates/rslib-shim",
+    "crates/rookery-core",
+    "crates/rookery-gtk",
+    "crates/rookery-proto",
+]
+resolver = "2"
+
+[profile.release]
+lto = true
+codegen-units = 1

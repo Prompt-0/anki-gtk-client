@@ -1,0 +1,8 @@
+[package]
+name = "rslib-shim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anki = { git = "https://github.com/ankitects/anki.git", tag = "26.05" }
+tokio = { version = "1.0", features = ["full"] }

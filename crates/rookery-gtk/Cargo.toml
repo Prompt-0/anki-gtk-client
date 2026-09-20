@@ -1,0 +1,11 @@
+[package]
+name = "rookery-gtk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rookery-core = { path = "../rookery-core" }
+rookery-proto = { path = "../rookery-proto" }
+gtk4 = { version = "0.11.4", features = ["v4_14"] }
+libadwaita = { version = "0.9.2", features = ["v1_5"] }
+webkit6 = "0.6.1"
